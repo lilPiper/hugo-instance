@@ -19,7 +19,7 @@ timeFormat: "2006-01-02T15:04:05-07:00"
 #scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+scheme: Mist
 
 # 开启暗模式
 # Dark Mode
@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: lilPi
+subtitle: a blog
+description: Be a voice. Not an echo.
+keywords: Blog,Programming,IT
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -162,9 +162,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
+  #social0: Github || https://github.com/elkan1788 || fab fa-github
   #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -172,7 +172,10 @@ socials:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
-
+  #Discord: 
+  #Mastodon:
+  #Reddit:
+  
 # 社交链接图标设置
 # Social icon setting
 socialIcons:
@@ -205,8 +208,8 @@ linksSets:
 # Links of your friends
 # Usage: `Key: name || permalink`
 links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  link0: Hugo-NexT || https://github.com/hugo-next/hugo-theme-next
+  #link1:
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -267,18 +270,18 @@ footer:
   # Beian ICP and gongan information for Chinese users. 
   # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     # ICP 备案的具体信息
-    icp: 粤ICP备 18047355-1 号
+    icp: 粤ICP备 号
     # 公安网备的省份简称
     provinceAbbr: 沪
     # 公安网备案号
-    gonganNum: 31011402009770
+    gonganNum: 
 
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
     title: 提供CDN/云资源支持
@@ -333,7 +336,7 @@ postFooter:
   # 通过线条将文章和捐赠等信息隔开，并在线条上添加提示信息
   # Use line to separate post and reward etc other information
   # and add tip title on line.
-  endLineTip: "~ 我可是有底线的哟 ~"
+  endLineTip: "~ endline ~"
   # 是否使用小图标，默认使用 # 符号表示标签
   # Use icon instead of the symbol # to indicate the tag
   tagIcon: true
@@ -344,7 +347,7 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed 
   # in every article by default.
-  enable: true
+  enable: false
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
   animation: true
@@ -368,8 +371,8 @@ rewardSets:
 followMe:
   #channel0: Twitter || https://twitter.com/username || fab fa-twitter
   #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-  channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-  channel3: RSS || /atom.xml || fa fa-rss
+  #channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
+  #channel3: RSS || /atom.xml || fa fa-rss
 
 # 文章的在线编辑
 # Post edit
@@ -471,7 +474,7 @@ bookmark:
 githubBanner:
   # 是否开启显示
   # If true, will display banner.
-  enable: true
+  enable: false
   # 你的 Github 仓库地址
   # Your repository url on Github.
   permalink: https://github.com/hugo-next
@@ -626,7 +629,7 @@ quicklink:
 comments:
   # 开启评论组件
   # If true, will show comment component in post end.
-  enable: true   
+  enable: false
   # 设置默认使用的评论插件
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
@@ -844,7 +847,7 @@ chat:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: true
+  enable: false
   room: hugo-next/community
 
 

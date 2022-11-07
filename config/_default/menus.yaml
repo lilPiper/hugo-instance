@@ -35,7 +35,7 @@ main:
     name: 归档
     pageref: /archives
     pre: archive
-    weight: 3
+    weight: 4
 #  - identifier: whispers
 #    name: 低语
 #    pageref: /whisper

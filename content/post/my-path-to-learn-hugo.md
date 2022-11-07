@@ -44,7 +44,7 @@ WordPress 功能太多，漏洞不少。
 * Jekyll
 * VuePress
 
-根据现有的知识储备来说，刨掉 Node.js/PHP/Ruby/Vue，就是 Hugo。Hugo 在自己的最短技术学习路径上。虽然 Golang 接触的也比较少。
+根据现有的知识储备来说，刨掉 Node.js/PHP/Ruby/Vue ，就是 Hugo。Hugo 在自己的最短技术学习路径上。虽然 Golang 接触的也比较少。
 
 ### Windows 系统怎么下载安装 the extended version of Hugo
 1. 到 [release 页面](https://github.com/gohugoio/hugo/releases) 下载 Windows 版本的 extended version of Hugo
@@ -52,6 +52,7 @@ WordPress 功能太多，漏洞不少。
 3. 配环境变量，将 **"Hugo所在位置\bin"** 添加到系统环境变量
 4. 打开"命令提示符"，输入 `hugo version` 检查是否安装成功
 
+选主题的时候，跑到常去的博客看了下页尾，主题是 NexT。用搜索搜到了 [Hugo theme NexT](https://github.com/hugo-next/hugo-theme-next)。开发者还贴心地给小白写了一键部署的说明，于是决定选这个主题。
 ### Hugo 一键部署到 PaaS
 有了 Vercel 账号之后，可以直接照着 [Hugo theme NexT Starter](https://github.com/hugo-next/hugo-theme-next-starter) 里的说明，GitHub 授权 Vercel， 再一键部署 Hugo NexT theme 到 Vercel。
 

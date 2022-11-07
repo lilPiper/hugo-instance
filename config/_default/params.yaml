@@ -661,8 +661,8 @@ comments:
 # Waline comments system
 # More info seee: https://waline.js.org/
 waline:
-  pageView: true
-  comment: true
+  pageView: false
+  comment: false
   placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
   emoji: false
@@ -674,7 +674,7 @@ waline:
   reactionTitle: "你认为这篇文章怎么样？"
   # 请注意换成个人的 Waline Server 服务器地址
   # Please replace this with your waline server URL
-  serverURL: https://walinejs.comment.lithub.cc
+  #serverURL: https://walinejs.comment.lithub.cc
 
 # Artalk 评论插件
 # 更多配置信息请参考：https://artalk.js.org
@@ -787,10 +787,10 @@ analytics:
   # 不蒜子统计
   # Show Views / Visitors of the website / page with busuanzi.
   # For more information: http://ibruce.info/2015/04/04/busuanzi/
-  busuanzi:
-    visitorsIcon: fa fa-user
-    viewsIcon: fa fa-eye
-    postViews: true
+  #busuanzi:
+  #  visitorsIcon: fa fa-user
+  #  viewsIcon: fa fa-eye
+  #  postViews: true
 
 
 # ---------------------------------------------------------------

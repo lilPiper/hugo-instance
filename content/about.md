@@ -12,7 +12,7 @@ copyright: false
 url: about.html
 ---
 
-#`lilPi`
+#lilPi
 
   `a blogger`
 

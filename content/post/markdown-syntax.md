@@ -4,7 +4,7 @@ description: "描述下 NexT 主题所支持的各种 markdown 语法及效果�
 isCJKLanguage: false
 
 lastmod: 2022-01-01T22:52:18+08:00
-publishDate: 2022-06-01T22:52:18+08:00
+publishDate: 2022-01-01T22:52:18+08:00
 
 author: Mainroad
 originLink: https://mainroad-demo.netlify.app/post/basic-elements/

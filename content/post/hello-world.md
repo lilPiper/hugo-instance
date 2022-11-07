@@ -1,9 +1,11 @@
 ---
-title: "世界，你好！"
+title: "demo几个常见Hugo命令"
 description: "快速的描述下有关于 Hugo 建站的基本用法。"
 
-lastmod: 2022-06-03T16:43:23+08:00
-date: 2022-06-02T11:52:03+08:00
+lastmod: 2022-01-01T23:00:23+08:00
+date: 2022-01-01T23:00:23+08:00
+
+author: Hugo NexT theme
 
 categories:
  - 博客

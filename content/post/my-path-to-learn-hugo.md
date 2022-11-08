@@ -38,13 +38,13 @@ url: post/my-path-to-learn-hugo.html
 WordPress 功能太多，漏洞不少。
 
 于是，收集了一下，最近流行的有：
-* Hexo
-* Hugo
-* Gastby
-* Jekyll
-* VuePress
+* [Hexo](https://hexo.io/)
+* [Hugo](https://gohugo.io/)
+* [Gastby](https://www.gatsbyjs.org/)
+* [Jekyll](https://jekyllrb.com/)
+* [VuePress](https://vuepress.vuejs.org/)
 
-根据现有的知识储备来说，刨掉 Node.js/PHP/Ruby/Vue ，就是 Hugo。Hugo 在自己的最短技术学习路径上。虽然 Golang 接触的也比较少。
+根据现有的知识储备来说，刨掉 Node.js/PHP/Ruby/Vue ，就是 Hugo。Hugo 在自己的最低成本学习路径上。虽然 Golang 接触的也比较少。
 
 ### Windows 系统怎么下载安装 the extended version of Hugo
 1. 到 [release 页面](https://github.com/gohugoio/hugo/releases) 下载 Windows 版本的 extended version of Hugo
